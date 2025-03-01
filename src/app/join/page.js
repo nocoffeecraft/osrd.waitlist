@@ -5,7 +5,7 @@ import SignUp from "@/components/SignUp";
 import ThankYou from "@/components/thankyou/ThankYou";
 import Footer from "@/components/Footer";
 
-export default function page() {
+export default function Page() {
   const [isClicked, setIsClicked] = useState(false);
   console.log(isClicked);
 
